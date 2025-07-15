@@ -1,0 +1,15 @@
+body {
+  background: #f8f9fa;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+#expenseList .card {
+  transition: 0.3s ease;
+}
+
+#expenseList .card:hover {
+  transform: translateY(-2px);
+}
